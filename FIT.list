@@ -1,17 +1,16 @@
-# 国外域名关键字
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,whatsapp
-
-# Facebook
+# Meta / Facebook
 DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fbcdn.com
-DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,tfbnw.net
+DOMAIN-SUFFIX,tfbnw.com
 IP-CIDR,31.13.24.0/21,no-resolve
 IP-CIDR,31.13.64.0/18,no-resolve
 IP-CIDR,45.64.40.0/22,no-resolve
@@ -27,13 +26,20 @@ IP-CIDR,179.60.192.0/22,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,204.15.20.0/22,no-resolve
 
-# Instagram
-DOMAIN-SUFFIX,cdninstagram.com
+# Instagram & Threads
 DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,ig.me
+DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,instagr.am
 
-# Twitter
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
+# WhatsApp
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,wa.me
+
+# 关键字兜底
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,whatsapp
