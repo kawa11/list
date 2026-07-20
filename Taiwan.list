@@ -26,3 +26,12 @@ DOMAIN-SUFFIX,fubon.com        # 富邦金控/银行
 DOMAIN-SUFFIX,sinopac.com      # 永丰银行
 DOMAIN-SUFFIX,scsb.com.tw      # 上海商业储蓄银行
 DOMAIN-SUFFIX,tcbbank.com.tw   # 合作金库
+
+# ==================== Dcard (狄卡) 全套域名 ====================
+DOMAIN-SUFFIX,dcard.tw    # 主站与网页端
+DOMAIN-SUFFIX,dcard.io    # 关键！API 接口与图片/媒体 CDN
+DOMAIN-SUFFIX,dcard.cc    # 静态资源与短网址
+DOMAIN-SUFFIX,dcard.link  # 外链跳转
+DOMAIN-SUFFIX,dcard.video # 视频流媒体
+DOMAIN-SUFFIX,dcard.app   # App 客户端服务
+DOMAIN-KEYWORD,dcard      # 关键字兜底
