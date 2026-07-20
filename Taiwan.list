@@ -1,29 +1,28 @@
-rules:
-  # ==================== 1. 台湾政府部门 ====================
-  - DOMAIN-SUFFIX,gov.tw
+# ==================== 1. 台湾政府部门 ====================
+DOMAIN-SUFFIX,gov.tw
 
-  # ==================== 2. 台湾教育部门 ====================
-  - DOMAIN-SUFFIX,edu.tw
+# ==================== 2. 台湾教育部门 ====================
+DOMAIN-SUFFIX,edu.tw
 
-  # ==================== 3. 台湾金融监管与证券机构 ====================
-  - DOMAIN-SUFFIX,fsc.gov.tw       # 金管会
-  - DOMAIN-SUFFIX,cbc.gov.tw       # 中央银行
-  - DOMAIN-SUFFIX,twse.com.tw      # 台湾证券交易所
-  - DOMAIN-SUFFIX,tpex.org.tw      # 柜买中心
-  - DOMAIN-SUFFIX,tdcc.com.tw      # 集保结算所
+# ==================== 3. 台湾金融监管与证券机构 ====================
+DOMAIN-SUFFIX,fsc.gov.tw       # 金管会
+DOMAIN-SUFFIX,cbc.gov.tw       # 中央银行
+DOMAIN-SUFFIX,twse.com.tw      # 台湾证券交易所
+DOMAIN-SUFFIX,tpex.org.tw      # 柜买中心
+DOMAIN-SUFFIX,tdcc.com.tw      # 集保结算所
 
-  # ==================== 4. 台湾主要商业银行与金融机构 ====================
-  - DOMAIN-SUFFIX,bot.com.tw       # 台湾银行
-  - DOMAIN-SUFFIX,landbank.com.tw  # 土地银行
-  - DOMAIN-SUFFIX,chb.com.tw       # 彰化银行
-  - DOMAIN-SUFFIX,hncb.com.tw      # 华南银行
-  - DOMAIN-SUFFIX,firstbank.com.tw # 第一银行
-  - DOMAIN-SUFFIX,mega-bank.com.tw # 兆丰银行
-  - DOMAIN-SUFFIX,ctbcbank.com     # 中国信托
-  - DOMAIN-SUFFIX,cathaybk.com.tw  # 国泰世华
-  - DOMAIN-SUFFIX,esunbank.com.tw   # 玉山银行
-  - DOMAIN-SUFFIX,taishinbank.com.tw # 台新银行
-  - DOMAIN-SUFFIX,fubon.com        # 富邦金控/银行
-  - DOMAIN-SUFFIX,sinopac.com      # 永丰银行
-  - DOMAIN-SUFFIX,scsb.com.tw      # 上海商业储蓄银行
-  - DOMAIN-SUFFIX,tcbbank.com.tw   # 合作金库
+# ==================== 4. 台湾主要商业银行与金融机构 ====================
+DOMAIN-SUFFIX,bot.com.tw       # 台湾银行
+DOMAIN-SUFFIX,landbank.com.tw  # 土地银行
+DOMAIN-SUFFIX,chb.com.tw       # 彰化银行
+DOMAIN-SUFFIX,hncb.com.tw      # 华南银行
+DOMAIN-SUFFIX,firstbank.com.tw # 第一银行
+DOMAIN-SUFFIX,mega-bank.com.tw # 兆丰银行
+DOMAIN-SUFFIX,ctbcbank.com     # 中国信托
+DOMAIN-SUFFIX,cathaybk.com.tw  # 国泰世华
+DOMAIN-SUFFIX,esunbank.com.tw   # 玉山银行
+DOMAIN-SUFFIX,taishinbank.com.tw # 台新银行
+DOMAIN-SUFFIX,fubon.com        # 富邦金控/银行
+DOMAIN-SUFFIX,sinopac.com      # 永丰银行
+DOMAIN-SUFFIX,scsb.com.tw      # 上海商业储蓄银行
+DOMAIN-SUFFIX,tcbbank.com.tw   # 合作金库
