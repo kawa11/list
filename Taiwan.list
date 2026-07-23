@@ -1,28 +1,81 @@
-# ==================== 1. 台湾政府部门 ====================
+# ==================== 台湾政府与教育（大范围） ====================
 DOMAIN-SUFFIX,gov.tw
-
-# ==================== 2. 台湾教育部门 ====================
 DOMAIN-SUFFIX,edu.tw
+DOMAIN-SUFFIX,mil.tw
 
-# ==================== 3. 台湾金融监管与证券机构 ====================
-DOMAIN-SUFFIX,fsc.gov.tw       # 金管会
-DOMAIN-SUFFIX,cbc.gov.tw       # 中央银行
-DOMAIN-SUFFIX,twse.com.tw      # 台湾证券交易所
-DOMAIN-SUFFIX,tpex.org.tw      # 柜买中心
-DOMAIN-SUFFIX,tdcc.com.tw      # 集保结算所
+# ==================== 特殊政府域名（非 gov.tw） ====================
+DOMAIN-SUFFIX,taipei                 # 台北市政府专属顶级域名（gov.taipei、data.taipei、service.taipei 等全部覆盖）
 
-# ==================== 4. 台湾主要商业银行与金融机构 ====================
-DOMAIN-SUFFIX,bot.com.tw       # 台湾银行
-DOMAIN-SUFFIX,landbank.com.tw  # 土地银行
-DOMAIN-SUFFIX,chb.com.tw       # 彰化银行
-DOMAIN-SUFFIX,hncb.com.tw      # 华南银行
-DOMAIN-SUFFIX,firstbank.com.tw # 第一银行
-DOMAIN-SUFFIX,mega-bank.com.tw # 兆丰银行
-DOMAIN-SUFFIX,ctbcbank.com     # 中国信托
-DOMAIN-SUFFIX,cathaybk.com.tw  # 国泰世华
-DOMAIN-SUFFIX,esunbank.com.tw   # 玉山银行
-DOMAIN-SUFFIX,taishinbank.com.tw # 台新银行
-DOMAIN-SUFFIX,fubon.com        # 富邦金控/银行
-DOMAIN-SUFFIX,sinopac.com      # 永丰银行
-DOMAIN-SUFFIX,scsb.com.tw      # 上海商业储蓄银行
-DOMAIN-SUFFIX,tcbbank.com.tw   # 合作金库
+# ==================== 金融监管与证券机构 ====================
+DOMAIN-SUFFIX,fsc.gov.tw             # 金管會
+DOMAIN-SUFFIX,banking.gov.tw         # 銀行局
+DOMAIN-SUFFIX,sfb.gov.tw             # 證券期貨局
+DOMAIN-SUFFIX,ib.gov.tw              # 保險局
+DOMAIN-SUFFIX,feb.gov.tw             # 檢查局
+DOMAIN-SUFFIX,cbc.gov.tw             # 中央銀行
+DOMAIN-SUFFIX,cdic.gov.tw            # 中央存款保險公司
+DOMAIN-SUFFIX,twse.com.tw            # 台灣證券交易所
+DOMAIN-SUFFIX,tpex.org.tw            # 櫃買中心
+DOMAIN-SUFFIX,tdcc.com.tw            # 集保結算所
+DOMAIN-SUFFIX,taifex.com.tw          # 台灣期貨交易所
+DOMAIN-SUFFIX,fundclear.com.tw       # 基金資訊觀測站
+DOMAIN-SUFFIX,ba.org.tw              # 銀行公會
+DOMAIN-SUFFIX,fisc.com.tw            # 財金公司
+DOMAIN-SUFFIX,nccc.com.tw            # 聯合信用卡處理中心
+DOMAIN-SUFFIX,twnch.org.tw           # 票據交換所
+
+# ==================== 主要商业银行与金融机构 ====================
+# ----- 八大行庫 / 公股銀行 -----
+DOMAIN-SUFFIX,bot.com.tw             # 台灣銀行
+DOMAIN-SUFFIX,landbank.com.tw        # 土地銀行
+DOMAIN-SUFFIX,tcb-bank.com.tw        # 合作金庫
+DOMAIN-SUFFIX,firstbank.com.tw       # 第一銀行
+DOMAIN-SUFFIX,hncb.com.tw            # 華南銀行
+DOMAIN-SUFFIX,chb.com.tw             # 彰化銀行
+DOMAIN-SUFFIX,megabank.com.tw        # 兆豐銀行
+DOMAIN-SUFFIX,tbb.com.tw             # 台灣中小企業銀行
+
+# ----- 主要民營銀行 -----
+DOMAIN-SUFFIX,ctbcbank.com           # 中國信託
+DOMAIN-SUFFIX,cathaybk.com.tw        # 國泰世華
+DOMAIN-SUFFIX,esunbank.com.tw        # 玉山銀行
+DOMAIN-SUFFIX,taishinbank.com.tw     # 台新銀行
+DOMAIN-SUFFIX,fubon.com              # 富邦金控 / 台北富邦
+DOMAIN-SUFFIX,taipeifubon.com.tw
+DOMAIN-SUFFIX,sinopac.com            # 永豐銀行
+DOMAIN-SUFFIX,scsb.com.tw            # 上海商業儲蓄銀行
+DOMAIN-SUFFIX,yuantabank.com.tw      # 元大銀行
+DOMAIN-SUFFIX,ubot.com.tw            # 聯邦銀行
+DOMAIN-SUFFIX,feib.com.tw            # 遠東銀行
+DOMAIN-SUFFIX,kgibank.com.tw         # 凱基銀行
+DOMAIN-SUFFIX,entiebank.com.tw       # 安泰銀行
+DOMAIN-SUFFIX,sunnybank.com.tw       # 陽信銀行
+DOMAIN-SUFFIX,tcbbank.com.tw         # 台中銀行
+DOMAIN-SUFFIX,bok.com.tw             # 高雄銀行
+DOMAIN-SUFFIX,ktb.com.tw             # 京城銀行
+DOMAIN-SUFFIX,hwataibank.com.tw      # 華泰銀行
+DOMAIN-SUFFIX,taipeistarbank.com.tw  # 瑞興銀行
+DOMAIN-SUFFIX,bankofpanhsin.com.tw   # 板信銀行
+DOMAIN-SUFFIX,cotabank.com.tw        # 三信銀行
+DOMAIN-SUFFIX,skbank.com.tw          # 新光銀行
+DOMAIN-SUFFIX,o-bank.com             # 王道銀行
+DOMAIN-SUFFIX,nextbank.com.tw        # 將來銀行
+DOMAIN-SUFFIX,linebank.com.tw        # LINE Bank
+DOMAIN-SUFFIX,rakuten-bank.com.tw    # 樂天銀行
+
+# ----- 金控集團 -----
+DOMAIN-SUFFIX,cathayholdings.com
+DOMAIN-SUFFIX,ctbcholding.com
+DOMAIN-SUFFIX,esunfhc.com
+DOMAIN-SUFFIX,taishinholdings.com.tw
+DOMAIN-SUFFIX,yuanta.com
+DOMAIN-SUFFIX,megaholdings.com.tw
+DOMAIN-SUFFIX,firstholding.com.tw
+DOMAIN-SUFFIX,hnfhc.com.tw
+DOMAIN-SUFFIX,tcfhc.com.tw
+DOMAIN-SUFFIX,skfh.com.tw
+
+# ----- 其他重要金融機構 -----
+DOMAIN-SUFFIX,eximbank.com.tw        # 輸出入銀行
+DOMAIN-SUFFIX,abank.com.tw           # 農業金庫
+DOMAIN-SUFFIX,post.gov.tw            # 中華郵政（郵政儲金）
