@@ -1,0 +1,8 @@
+# Bybit 核心域名分流
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.global
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,byapps.com
+DOMAIN-KEYWORD,bybit
